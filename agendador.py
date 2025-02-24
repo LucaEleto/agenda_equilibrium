@@ -19,6 +19,3 @@ if st.button('Agendar'):
     conexao.con.commit()
     cursor.close()
     st.success("Agendamento realizado com sucesso!")
-
-st.link_button('Ver Agendamentos',url='agendamentos.py')
-
