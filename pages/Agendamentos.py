@@ -3,6 +3,12 @@ import pandas as pd
 import conexao
 import datetime
 
+con = mysql.connector.connect(
+host="26.87.213.126",
+user="root",
+password="clara02",
+database="fisio_equilibrium"
+
 
 st.set_page_config(page_title="Agendamentos", page_icon=":table:", layout="wide")
 st.header("Equilibrium Fisioterapia e Pilates")
