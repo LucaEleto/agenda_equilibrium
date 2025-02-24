@@ -12,7 +12,7 @@ if st.button('Entrar'):
     if usuario == 'admin' and senha == 'admin':
         st.success("Login realizado com sucesso!")
         st.write("Bem-vindo, administrador!")
-        st.link_button('Agendador',url='agendador.py')
+        st.page_link('Agendador',url='agendador.py')
 
     else:
         st.error("Usuário ou senha inválidos")
