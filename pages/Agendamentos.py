@@ -7,7 +7,7 @@ con = mysql.connector.connect(
 host="26.87.213.126",
 user="root",
 password="clara02",
-database="fisio_equilibrium"
+database="fisio_equilibrium")
 
 
 st.set_page_config(page_title="Agendamentos", page_icon=":table:", layout="wide")
