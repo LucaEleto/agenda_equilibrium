@@ -4,7 +4,7 @@ import mysql.connector
 import datetime
 
 con = mysql.connector.connect(
-host="26.87.213.126",
+host="localhost",
 user="root",
 password="clara02",
 database="fisio_equilibrium")
